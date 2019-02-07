@@ -23,8 +23,7 @@ export class ProductsCategoryBodyComponent implements OnInit {
   }
   imageStyle(img) {
     return {
-      'height': '200px',
-      'width': '400px',
+      'height': '40vh',
       'margin-right': 'auto',
       'margin-left' : 'auto',
       'background-image':  `url('../../../assets/images/${img}')`

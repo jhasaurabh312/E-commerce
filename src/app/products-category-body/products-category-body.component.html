@@ -11,10 +11,10 @@
         <div class="container-fluid" id="products-section-items">
             <div class="row">
                 <div class="col-sm-4 col-xs-12 col-md-4" *ngFor="let member of productDetail|slice:0:3">
-                    <div class="numbers" [ngStyle]="imageStyle(member.img)">
+                    <div class="numbers" [ngStyle]="imageStyle(member.img)" id="#image">
                         
                     </div>
-                    <div class="numbers" >
+                    <div class="numbers">
                        <h3>{{member.product}}</h3> 
                        <p>{{member.start_price}}</p>
                     </div>

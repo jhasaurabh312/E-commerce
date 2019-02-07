@@ -4,6 +4,9 @@
    width: 100%;
    position: relative;
 }
+.container-fluid {
+  height: 60vh;
+}
 
 .home-content {
     height: 30vh;
@@ -56,11 +59,12 @@
   }
 
   #numbers {
-    margin-top: 60px;
+    margin-top: 20px;
   }
   
   .number {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    width: 100%
   }
   
   .number h3 {
