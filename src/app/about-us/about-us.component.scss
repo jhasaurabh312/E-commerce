@@ -1,0 +1,76 @@
+#home {
+   background-image: url(../../assets/images/aboutUs.jpg);
+   height: 60vh;
+   width: 100%;
+   position: relative;
+}
+
+.home-content {
+    height: 30vh;
+    margin-top: 15vh;
+    margin-right: -25px;
+    color: #fff;
+    background-color: black;
+    float: right;
+    width: 40%
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px
+  }
+
+  .about-content {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    position: relative;
+    font-weight: 600;
+    font-size: 1.1em;
+    overflow: hidden;
+  }
+  
+  .section-title .title {
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 42px;
+    overflow: hidden;
+  }
+  
+  .section-title .title>span {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    display: inline-block;
+    z-index: 10;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  
+  .section-title .title>span.appear {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+
+  #numbers {
+    margin-top: 60px;
+  }
+  
+  .number {
+    margin-bottom: 30px;
+  }
+  
+  .number h3 {
+    font-size: 42px;
+    margin-bottom: 0px;
+    color: #dd0a37;
+  }
+  
+  .number p {
+    text-transform: uppercase;
+    color: #0b0f28;
+  }
+  

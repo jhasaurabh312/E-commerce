@@ -1,1 +1,103 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0px 0px 15px;
+    color: #0b0f28;
+    font-weight: 700;
+  }
+
+  p{
+    color: #00020c;
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+  
+  h1 {
+    font-size: 43px;
+  }
+  
+  h2 {
+    font-size: 31px;
+  }
+  
+  h3 {
+    font-size: 22px;
+  }
+  
+  h4 {
+    font-size: 16px;
+  }
+  
+  .lead {
+    font-size: 20px;
+  }
+  
+  a {
+    color: #0b0f28;
+    -webkit-transition: 0.3s color;
+    transition: 0.3s color;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #dd0a37;
+  }
+  
+  ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none
+  }
+  
+  .main-btn {
+    display: inline-block;
+    padding: 14px 50px;
+    background: #dd0a37;
+    color: #FFF;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  
+  .main-btn:hover, .main-btn:focus {
+    color: #FFF;
+    opacity: 0.8;
+  }
+  
+  .input {
+    height: 40px;
+    width: 100%;
+    border: 2px solid #dadada;
+    padding: 0px 15px;
+    border-radius: 2px;
+    -webkit-transition: 0.3s border;
+    transition: 0.3s border;
+  }
+  
+  textarea.input {
+    height: 90px;
+    padding: 15px;
+  }
+  
+  .input:focus {
+    border-color: #dd0a37;
+  }
+
+  div {
+    margin-top: 0px;
+    display: block;
+  }
+
+  .navbar {
+    margin-bottom: 0 !important
+  }
+  
