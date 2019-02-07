@@ -1,22 +1,25 @@
-<div class="col-md-8 col-md-offset-2 text-center">
-    <div class="about-content" id="product-details">
-        <div class="row" id="product-section-name">
-            <h2> </h2>
+<div class="section" *ngFor="let range of productDetail|slice:0:3">
+    <div class="container-fluid">
+        <div class="container-fluid" id="product-details">
+            <div class="row" id="product-section-name">
+                <h2>{{range.category}}</h2>
+            </div>
+            <div class="row" id="product-section-details">
+                <p> </p>
+            </div>
         </div>
-        <div class="row" id="product-section-details">
-            <p> </p>
-        </div>
-    </div>
-    <div class="about-content" id="products-section-items">
-        <div class="row">
-            <div class="col-md-3 col-sm-3 col-xs-6" *ngFor="let member of teamDetail|slice:0:3">
-                <div class="numbers" [ngStyle]="imageStyle(member.localImageURL)">
-                    
-                </div>
-                <div class="numbers" >
-                    
+        <div class="container-fluid" id="products-section-items">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12 col-md-4" *ngFor="let member of productDetail|slice:0:3">
+                    <div class="numbers" [ngStyle]="imageStyle(member.img)">
+                        
+                    </div>
+                    <div class="numbers" >
+                       <h3>{{member.product}}</h3> 
+                       <p>{{member.start_price}}</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
 </div>
